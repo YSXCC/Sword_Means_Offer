@@ -12,7 +12,7 @@ using namespace std;
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
-
+        std::ios::sync_with_stdio(false);   //cin不经过缓冲区
         if (matrix.size() == 0) {
             return false;
         }
